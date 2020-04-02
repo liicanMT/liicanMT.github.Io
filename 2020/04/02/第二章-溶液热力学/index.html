@@ -478,6 +478,82 @@
     
 
     
+      <div>
+        <!-- JS库 clipboard 拷贝内容到粘贴板-->
+<script src="https://cdn.bootcss.com/clipboard.js/2.0.1/clipboard.min.js"></script>
+
+<!-- JS库 sweetalert 显示提示信息-->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<ul class="post-copyright">
+  <!-- 本文标题 -->
+  <li>
+    <strong>post.copyright.title： </strong>
+    第二章 溶液热力学
+  </li>
+
+  <!-- 本文作者 -->
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>
+    
+  </li>
+
+  <!-- 创建时间 -->
+  <li>
+    <strong>创建于： </strong>
+    2020年04月02日 - 20时04分
+  </li>
+
+  <!-- 修改时间 -->
+  <li>
+    <strong>更新于： </strong>
+    2020年04月02日 - 20时04分
+  </li>
+
+  <!-- 引用链接 -->
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://yoursite.com/2020/04/02/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E6%BA%B6%E6%B6%B2%E7%83%AD%E5%8A%9B%E5%AD%A6/" title="第二章 溶液热力学"
+      >http://yoursite.com/2020/04/02/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E6%BA%B6%E6%B6%B2%E7%83%AD%E5%8A%9B%E5%AD%A6/</a
+    >
+    <span class="copy-path" title="点击复制引用链接"
+      ><i
+        style="cursor: pointer"
+        class="fa fa-clipboard"
+        data-clipboard-text="['s Blog | 第二章 溶液热力学](http://yoursite.com/2020/04/02/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E6%BA%B6%E6%B6%B2%E7%83%AD%E5%8A%9B%E5%AD%A6/)"
+        aria-label="post.copy_success"
+      ></i
+    ></span>
+  </li>
+
+  <!-- 版权声明 -->
+  <li class="post-copyright-license">
+    <strong
+      >版权声明：
+    </strong>
+    本博客所有文章除特别声明外，均采用 CC BY-NC-SA 3.0 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+<script>
+  var clipboard = new ClipboardJS(".fa-clipboard");
+  clipboard.on("success", function(target) {
+    var message = document.createElement("div");
+    message.innerHTML =
+      '<i class="fa fa-check-circle message-icon"></i><span class="message-content">' +
+      target.trigger.getAttribute("aria-label") +
+      "</span>";
+    swal({
+      content: message,
+      className: "copy-success-message",
+      timer: 1000,
+      button: false
+    });
+  });
+</script>
+
+      </div>
+    
 
     <footer class="post-footer">
       
