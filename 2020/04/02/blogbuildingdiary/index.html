@@ -79,14 +79,14 @@
 
 
 
-<meta name="description" content="最主要的一步是在themes\next\layout_macro\post-copyright.swig 中修改样式">
+<meta name="description" content="添加版权声明最主要的一步是在themes\next\layout_macro\post-copyright.swig 中修改样式">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo搭站日志---添加版权声明">
-<meta property="og:url" content="http://yoursite.com/2020/04/02/hexo%E6%90%AD%E7%AB%99%E6%97%A5%E5%BF%97-%E6%B7%BB%E5%8A%A0%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E/index.html">
+<meta property="og:title" content="hexo搭站日志">
+<meta property="og:url" content="http://yoursite.com/2020/04/02/blogbuildingdiary/index.html">
 <meta property="og:site_name" content="liican&#39;s zone">
-<meta property="og:description" content="最主要的一步是在themes\next\layout_macro\post-copyright.swig 中修改样式">
+<meta property="og:description" content="添加版权声明最主要的一步是在themes\next\layout_macro\post-copyright.swig 中修改样式">
 <meta property="article:published_time" content="2020-04-02T15:27:02.000Z">
-<meta property="article:modified_time" content="2020-04-02T17:05:33.970Z">
+<meta property="article:modified_time" content="2020-04-03T13:28:41.851Z">
 <meta property="article:author" content="liican">
 <meta property="article:tag" content="搭站日记">
 <meta name="twitter:card" content="summary">
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2020/04/02/hexo搭站日志-添加版权声明/"/>
+  <link rel="canonical" href="http://yoursite.com/2020/04/02/blogbuildingdiary/"/>
 
 
 
 
 
-  <title>hexo搭站日志---添加版权声明 | liican's zone</title>
+  <title>hexo搭站日志 | liican's zone</title>
   
 
 
@@ -252,7 +252,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/02/hexo%E6%90%AD%E7%AB%99%E6%97%A5%E5%BF%97-%E6%B7%BB%E5%8A%A0%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/02/blogbuildingdiary/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="liican">
@@ -269,7 +269,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">hexo搭站日志---添加版权声明</h1>
+          <h1 class="post-title" itemprop="name headline">hexo搭站日志</h1>
         
 
         <div class="post-meta">
@@ -346,11 +346,27 @@
       
 
       
-        <p>最主要的一步是在themes\next\layout_macro\post-copyright.swig 中修改样式</p>
+        <h1 id="添加版权声明"><a href="#添加版权声明" class="headerlink" title="添加版权声明"></a>添加版权声明</h1><p>最主要的一步是在themes\next\layout_macro\post-copyright.swig 中修改样式</p>
 <a id="more"></a>
 
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- JS库 clipboard 拷贝内容到粘贴板--&gt;</span><br><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;cdn.bootcss.com&#x2F;clipboard.js&#x2F;2.0.1&#x2F;clipboard.min.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- JS库 sweetalert 显示提示信息--&gt;</span><br><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;unpkg.com&#x2F;sweetalert&#x2F;dist&#x2F;sweetalert.min.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line"></span><br><span class="line">&lt;ul class&#x3D;&quot;post-copyright&quot;&gt;</span><br><span class="line">  &lt;!-- 本文标题 --&gt;</span><br><span class="line">  &lt;li&gt;</span><br><span class="line">    &lt;strong&gt;&#123;&#123; __(&#39;post.copyright.title&#39;) + __(&#39;symbol.colon&#39;) &#125;&#125; &lt;&#x2F;strong&gt;</span><br><span class="line">    &#123;&#123; post.title &#125;&#125;</span><br><span class="line">  &lt;&#x2F;li&gt;</span><br><span class="line"></span><br><span class="line">  &lt;!-- 本文作者 --&gt;</span><br><span class="line"> &lt;li class&#x3D;&quot;post-copyright-author&quot;&gt;</span><br><span class="line">    &lt;strong&gt;&#123;&#123; __(&#39;post.copyright.author&#39;) + __(&#39;symbol.colon&#39;) &#125;&#125;&lt;&#x2F;strong&gt;</span><br><span class="line">    &#123;&#123; post.author | default(config.author) &#125;&#125;</span><br><span class="line">  &lt;&#x2F;li&gt;</span><br><span class="line">  &lt;!-- 创建时间 --&gt;</span><br><span class="line">  &lt;li&gt;</span><br><span class="line">    &lt;strong&gt;&#123;&#123; __(&#39;post.created&#39;) + __(&#39;symbol.colon&#39;) &#125;&#125; &lt;&#x2F;strong&gt;</span><br><span class="line">    &#123;&#123; post.date.format(&quot;YYYY年MM月DD日 - HH时MM分&quot;) &#125;&#125;</span><br><span class="line">  &lt;&#x2F;li&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  &lt;!-- 引用链接 --&gt;</span><br><span class="line">  &lt;li class&#x3D;&quot;post-copyright-link&quot;&gt;</span><br><span class="line">  &lt;strong&gt;&#123;&#123; __(&#39;post.copyright.link&#39;) + __(&#39;symbol.colon&#39;) &#125;&#125;&lt;&#x2F;strong&gt;</span><br><span class="line">  &lt;a href&#x3D;&quot;https:&#x2F;&#x2F;liicanmt.github.io&#x2F;&#123;&#123; post.path | default(post.permalink) &#125;&#125;&quot; title&#x3D;&quot;&#123;&#123; post.title &#125;&#125;&quot;&gt;https:&#x2F;&#x2F;liicanmt.github.io&#x2F;&#123;&#123; post.path | default(post.permalink) &#125;&#125;&lt;&#x2F;a&gt;</span><br><span class="line">    &gt;</span><br><span class="line">    &lt;span class&#x3D;&quot;copy-path&quot; title&#x3D;&quot;点击复制引用链接&quot;</span><br><span class="line">      &gt;&lt;i</span><br><span class="line">        style&#x3D;&quot;cursor: pointer&quot;</span><br><span class="line">        class&#x3D;&quot;fa fa-clipboard&quot;</span><br><span class="line">        data-clipboard-text&#x3D;&quot;[&#123;&#123; post.author | default(author) &#125;&#125;&#39;s Blog | &#123;&#123; post.title &#125;&#125;](&#123;&#123; post.permalink &#125;&#125;)&quot;</span><br><span class="line">        aria-label&#x3D;&quot;&#123;&#123; __(&#39;post.copy_success&#39;) &#125;&#125;&quot;</span><br><span class="line">      &gt;&lt;&#x2F;i</span><br><span class="line">    &gt;&lt;&#x2F;span&gt;</span><br><span class="line">  &lt;&#x2F;li&gt;</span><br><span class="line"></span><br><span class="line">  &lt;!-- 版权声明 --&gt;</span><br><span class="line">  &lt;li class&#x3D;&quot;post-copyright-license&quot;&gt;</span><br><span class="line">    &lt;strong</span><br><span class="line">      &gt;&#123;&#123; __(&#39;post.copyright.license_title&#39;) + __(&#39;symbol.colon&#39;) &#125;&#125;</span><br><span class="line">    &lt;&#x2F;strong&gt;</span><br><span class="line">    &#123;&#123; __(&#39;post.copyright.license_content&#39;, theme.post_copyright.license) &#125;&#125;</span><br><span class="line">  &lt;&#x2F;li&gt;</span><br><span class="line">&lt;&#x2F;ul&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">  var clipboard &#x3D; new ClipboardJS(&quot;.fa-clipboard&quot;);</span><br><span class="line">  clipboard.on(&quot;success&quot;, function(target) &#123;</span><br><span class="line">    var message &#x3D; document.createElement(&quot;div&quot;);</span><br><span class="line">    message.innerHTML &#x3D;</span><br><span class="line">      &#39;&lt;i class&#x3D;&quot;fa fa-check-circle message-icon&quot;&gt;&lt;&#x2F;i&gt;&lt;span class&#x3D;&quot;message-content&quot;&gt;&#39; +</span><br><span class="line">      target.trigger.getAttribute(&quot;aria-label&quot;) +</span><br><span class="line">      &quot;&lt;&#x2F;span&gt;&quot;;</span><br><span class="line">    swal(&#123;</span><br><span class="line">      content: message,</span><br><span class="line">      className: &quot;copy-success-message&quot;,</span><br><span class="line">      timer: 1000,</span><br><span class="line">      button: false</span><br><span class="line">    &#125;);</span><br><span class="line">  &#125;);</span><br><span class="line">&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
-<p><strong>在应用链接的部分一定要把两个站名改成自己的！！！</strong><br>其余部分可以参考<a href="http://yearito.cn/posts/hexo-advanced-settings.html" target="_blank" rel="noopener">http://yearito.cn/posts/hexo-advanced-settings.html</a></p>
+<p><strong>在应用链接的部分一定要把两个站名改成自己的！！！</strong><br>其余部分可以参考<a href="http://yearito.cn/posts/hexo-advanced-settings.html" target="_blank" rel="noopener">http://yearito.cn/posts/hexo-advanced-settings.html</a><br>2020.4.2</p>
+<h1 id="添加看板娘"><a href="#添加看板娘" class="headerlink" title="添加看板娘"></a>添加看板娘</h1><blockquote>
+<p>本站使用的是hexo自带的看板娘插件，只有模型和眼神互动，没有别的系统。<br>参考了中分爱人的文章：<a href="https://www.520mwx.com/view/63769" target="_blank" rel="noopener">https://www.520mwx.com/view/63769</a></p>
+</blockquote>
+<h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>首先安装看板娘插件。进入博客根目录安装</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
+
+<h2 id="更改配置"><a href="#更改配置" class="headerlink" title="更改配置"></a>更改配置</h2><p>修改根目录的_config.yml文件，添加如下配置</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">## live2d</span><br><span class="line">live2d:</span><br><span class="line">   enable: true #启用看板娘</span><br><span class="line">   scriptFrom: local</span><br><span class="line">   pluginRootPath: live2dw&#x2F;</span><br><span class="line">   pluginJsPath: lib&#x2F;</span><br><span class="line">   pluginModelPath: assets&#x2F;</span><br><span class="line">   tagMode: false</span><br><span class="line">   debug: false</span><br><span class="line">   model:</span><br><span class="line">       use: live2d-widget-model-wanko  #此处是看板娘模型</span><br><span class="line">       scale: 1</span><br><span class="line">       hHeadPos: 0.5</span><br><span class="line">       vHeadPos: 0.618</span><br><span class="line">   display:</span><br><span class="line">       superSample: 2</span><br><span class="line">       width: 150  #宽度</span><br><span class="line">       height: 300 #高度</span><br><span class="line">       position: right #位置</span><br><span class="line">       hOffset: 0</span><br><span class="line">       vOffset: -20</span><br><span class="line">   mobile:</span><br><span class="line">       show: true #是否在手机端出现</span><br><span class="line">       scale: 0.5</span><br></pre></td></tr></table></figure>
+
+<p><strong>注意</strong>：此处需要你挑选好你喜欢的模型再进行下面的操作。<br>模型可以参考github仓库：<a href="https://github.com/EYHN/hexo-helper-live2d" target="_blank" rel="noopener">https://github.com/EYHN/hexo-helper-live2d</a><br>如果网络不好可以看这一篇CSDN：<a href="https://blog.csdn.net/wang_123_zy/article/details/87181892" target="_blank" rel="noopener">https://blog.csdn.net/wang_123_zy/article/details/87181892</a></p>
+<p>然后在配置文件中更改好自己的模型</p>
+<h2 id="添加看板娘-1"><a href="#添加看板娘-1" class="headerlink" title="添加看板娘"></a>添加看板娘</h2><p>刚刚只是安装了看板娘插件，现在来安装具体的看板娘模型</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install live2d-widget-model-wanko</span><br></pre></td></tr></table></figure>
+<p>这是安装具体看板娘模型的命令<br>至此，你的看板娘就安装好啦！</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>快去看看吧~<br>2020.4.3</p>
 
       
     </div>
@@ -374,7 +390,7 @@
   <!-- 本文标题 -->
   <li>
     <strong>本文标题： </strong>
-    hexo搭站日志---添加版权声明
+    hexo搭站日志
   </li>
 
   <!-- 本文作者 -->
@@ -392,13 +408,13 @@
   <!-- 引用链接 -->
   <li class="post-copyright-link">
   <strong>本文链接：</strong>
-  <a href="https://liicanmt.github.io/2020/04/02/hexo搭站日志-添加版权声明/" target="_blank" rel="noopener" title="hexo搭站日志---添加版权声明">https://liicanmt.github.io/2020/04/02/hexo搭站日志-添加版权声明/</a>
+  <a href="https://liicanmt.github.io/2020/04/02/blogbuildingdiary/" target="_blank" rel="noopener" title="hexo搭站日志">https://liicanmt.github.io/2020/04/02/blogbuildingdiary/</a>
     >
     <span class="copy-path" title="点击复制引用链接"
       ><i
         style="cursor: pointer"
         class="fa fa-clipboard"
-        data-clipboard-text="['s Blog | hexo搭站日志---添加版权声明](http://yoursite.com/2020/04/02/hexo%E6%90%AD%E7%AB%99%E6%97%A5%E5%BF%97-%E6%B7%BB%E5%8A%A0%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E/)"
+        data-clipboard-text="['s Blog | hexo搭站日志](http://yoursite.com/2020/04/02/blogbuildingdiary/)"
         aria-label="post.copy_success"
       ></i
     ></span>
@@ -509,8 +525,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -602,6 +627,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#添加版权声明"><span class="nav-number">1.</span> <span class="nav-text">添加版权声明</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#添加看板娘"><span class="nav-number">2.</span> <span class="nav-text">添加看板娘</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装插件"><span class="nav-number">2.1.</span> <span class="nav-text">安装插件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#更改配置"><span class="nav-number">2.2.</span> <span class="nav-text">更改配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加看板娘-1"><span class="nav-number">2.3.</span> <span class="nav-text">添加看板娘</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
