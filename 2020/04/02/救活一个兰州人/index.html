@@ -90,7 +90,7 @@
 <meta property="og:site_name" content="liican&#39;s zone">
 <meta property="og:description" content="暗室逢灯这个小标题是我随手按出来的。asfd，左手一敲。成了。我的左脚重重的放在地上。我没有办法把他抬得高高的——按医生所说的高过心脏——我做不到。我坐在椅子上但是没有一个点能够是我支撑的住身子。这是救活兰州人的第一步。">
 <meta property="article:published_time" content="2020-04-02T13:23:23.000Z">
-<meta property="article:modified_time" content="2020-04-02T17:06:17.167Z">
+<meta property="article:modified_time" content="2020-04-04T09:27:24.935Z">
 <meta property="article:author" content="liican">
 <meta property="article:tag" content="字">
 <meta name="twitter:card" content="summary">
@@ -406,6 +406,74 @@
       </div>
     
 
+    
+      <div>
+        <!-- JS库 clipboard 拷贝内容到粘贴板-->
+<script src="https://cdn.bootcss.com/clipboard.js/2.0.1/clipboard.min.js"></script>
+
+<!-- JS库 sweetalert 显示提示信息-->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<ul class="post-copyright">
+  <!-- 本文标题 -->
+  <li>
+    <strong>本文标题： </strong>
+    救活一个兰州人
+  </li>
+
+  <!-- 本文作者 -->
+ <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    liican
+  </li>
+  <!-- 创建时间 -->
+  <li>
+    <strong>创建于： </strong>
+    2020年04月02日 - 21时04分
+  </li>
+
+
+  <!-- 引用链接 -->
+  <li class="post-copyright-link">
+  <strong>本文链接：</strong>
+  <a href="https://liicanmt.github.io/2020/04/02/救活一个兰州人/" target="_blank" rel="noopener" title="救活一个兰州人">https://liicanmt.github.io/2020/04/02/救活一个兰州人/</a>
+    >
+    <span class="copy-path" title="点击复制引用链接"
+      ><i
+        style="cursor: pointer"
+        class="fa fa-clipboard"
+        data-clipboard-text="['s Blog | 救活一个兰州人](http://yoursite.com/2020/04/02/%E6%95%91%E6%B4%BB%E4%B8%80%E4%B8%AA%E5%85%B0%E5%B7%9E%E4%BA%BA/)"
+        aria-label="post.copy_success"
+      ></i
+    ></span>
+  </li>
+
+  <!-- 版权声明 -->
+  <li class="post-copyright-license">
+    <strong
+      >版权声明：
+    </strong>
+    本博客所有文章除特别声明外，均采用 CC BY-NC-SA 3.0 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+<script>
+  var clipboard = new ClipboardJS(".fa-clipboard");
+  clipboard.on("success", function(target) {
+    var message = document.createElement("div");
+    message.innerHTML =
+      '<i class="fa fa-check-circle message-icon"></i><span class="message-content">' +
+      target.trigger.getAttribute("aria-label") +
+      "</span>";
+    swal({
+      content: message,
+      className: "copy-success-message",
+      timer: 1000,
+      button: false
+    });
+  });
+</script>
+      </div>
     
 
     <footer class="post-footer">
