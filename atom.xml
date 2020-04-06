@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-04T10:11:52.776Z</updated>
+  <updated>2020-04-06T07:23:59.598Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>npm出现eacces警告的解决办法</title>
+    <link href="http://yoursite.com/2020/04/06/npm%E5%87%BA%E7%8E%B0eacces%E8%AD%A6%E5%91%8A%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>http://yoursite.com/2020/04/06/npm%E5%87%BA%E7%8E%B0eacces%E8%AD%A6%E5%91%8A%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
+    <published>2020-04-06T07:04:42.000Z</published>
+    <updated>2020-04-06T07:23:59.598Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本文系在更新npm时出现“wirte eacces”警告时的解决办法。write eacces警告是指没有写入权限。查阅资料后找到了npm的官方文档，由此解决问题。在此将解决过程记录如下<br>官方文档地址：<a href="https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally" target="_blank" rel="noopener">https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally</a></p></blockquote><a id="more"></a><h1 id="出现问题"><a href="#出现问题" class="headerlink" title="出现问题"></a>出现问题</h1><p>在使用npm的过程中出现更新提示，于是输入指令更新npm</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g npm</span><br></pre></td></tr></table></figure><p>之后出现了一堆WARN，问题开头均是”write eacces”</p><h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><p>方法是再建立一个文件夹，然后吧npm的路径更改到这里，再全局安装npm<br>官方在这里有提示：最好的安装npm的方法是随着安装包同nodejs一起安装。笔者就是没有通过安装包一起安（哭泣<br><strong>注意：此方法不适用于Windows系统！！！！！</strong></p><h1 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h1><ol><li>回到根目录</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd</span><br></pre></td></tr></table></figure><ol start="2"><li>新建文件夹</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir ~&#x2F;.npm-global</span><br></pre></td></tr></table></figure><p>当然你的新文件夹不一定要叫“npm-gloal”。如果更改了，后面的步骤记得也要更改名字</p><ol start="3"><li>更改npm路径<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set prefix &#39;~&#x2F;.npm-global&#39;</span><br></pre></td></tr></table></figure></li><li>检查你的根目录下是否存在.profie。如果没有，添加.prifile</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch ~&#x2F;.profile</span><br></pre></td></tr></table></figure><ol start="5"><li>添加路径<br>在.profile配置文件中添加路径</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export PATH&#x3D;~&#x2F;.npm-global&#x2F;bin:$PATH</span><br></pre></td></tr></table></figure><ol start="6"><li>更新配置文件</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~&#x2F;.profile</span><br></pre></td></tr></table></figure><ol start="7"><li>全局安装npm</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g jshint</span><br></pre></td></tr></table></figure><p>至此，npm已完成更新，解决了write eacces问题<br>2020.4.6</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;本文系在更新npm时出现“wirte eacces”警告时的解决办法。write eacces警告是指没有写入权限。查阅资料后找到了npm的官方文档，由此解决问题。在此将解决过程记录如下&lt;br&gt;官方文档地址：&lt;a href=&quot;https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="node" scheme="http://yoursite.com/categories/node/"/>
+    
+    
+      <category term="node" scheme="http://yoursite.com/tags/node/"/>
+    
+      <category term="npm" scheme="http://yoursite.com/tags/npm/"/>
+    
+  </entry>
   
   <entry>
     <title>添加看板娘</title>
