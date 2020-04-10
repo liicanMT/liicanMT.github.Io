@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>liican&#39;s zone</title>
   
-  
+  <subtitle>《学》</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-08T03:29:44.226Z</updated>
+  <updated>2020-04-10T05:25:41.055Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>imovieguide</title>
+    <link href="http://yoursite.com/2020/04/10/imovieguide/"/>
+    <id>http://yoursite.com/2020/04/10/imovieguide/</id>
+    <published>2020-04-10T05:23:02.000Z</published>
+    <updated>2020-04-10T05:25:41.055Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="iMovie"><a href="#iMovie" class="headerlink" title="iMovie"></a>iMovie</h1><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><h3 id="同类软件"><a href="#同类软件" class="headerlink" title="同类软件"></a>同类软件</h3><p>众所周知Adobe的Pr是编辑视频的好能手。但是在macOS系统上我不得不说Pr就是个🌶️🐓️<br>在macos上最好的视频编辑软件是Apple自家的Final Cut Pro<br><img src="https://i.loli.net/2020/04/10/uEWtaRxVHezgshd.png" alt=""><br>但RMB1998的定价让我不敢看他<br>还好，Apple没有放弃我<br>还有iMovie<br><img src="https://i.loli.net/2020/04/10/t6Id5pvwq9bXKU3.png" alt=""><br>iMovie是和numbers、pages、keynote等一样，买了机子就送你的软件。这是一款免费的视频编辑软件。我不得不说对于初级使用者来说不管是操作难度还是系统快捷程度来说iMovie暴打Pr</p><p>2018年Adobe推出了一个新的视频剪辑工具，Adobe Premiere Rush。目前在在中国区官网还是没有这款软件。这款Ru加了个”rush”，意思这是一款用于剪辑小视频的入门级产品。”start for free”看起来是免费产品，我认为这是一款对标imove的产品，Windows的朋友们可以尝试一下。<br><img src="https://i.loli.net/2020/04/10/h64qLyjD1tJwvgu.png" alt=""></p><h3 id="使用体验"><a href="#使用体验" class="headerlink" title="使用体验"></a>使用体验</h3><p>刚刚在b站上做完了十期的饥荒教学视频。刚开始剪辑片子是在Pr上，一个<code>V</code>键，一个<code>C</code>键，一杯咖啡，一个晚上。没有用到什么特别的功能，也还算顺风顺水。直到做到第三期，这一期比较长，之前都是40分钟左右的视频，这次是一个半小时。剪好，导出，上传，删掉素材（因为我硬盘128实在是放不下）一气呵成。上传完毕以后我才发现Pr导出的影片有问题，只有前半小时，后一个小时无法播放。<br>我当时就裂开来。因为素材已经被我删了所以也无法再导出了。之后用Pr导出后我都会再看一遍确保没有这样的问题出现。直到一天我看着狂转的风扇和ppt的屏幕，我突然想到，我是不是可以换一个剪辑软件？<br>iMovie立刻出现在眼前。下下来想着先试试看。刚开始很不习惯，因为它的文件管理系统和其他的文件管理有点不一样，而且快捷键什么的找不到，很烦。之后在b站看到一篇关于iMovie的教学视频，茅塞顿开。这个软件学起来是真的很简单，就半小时就基本能掌握最基础的操作而且比起Pr要方便很多很多。<br>总之如果你是macOS，imovie一生推嗷<br>而且你如果你买了Final Cut Pro，你可以一键从iMove素材库导入到FCP的素材库（和我没啥关系）<br>👍</p><h1 id="获取信息"><a href="#获取信息" class="headerlink" title="获取信息"></a>获取信息</h1><p>打开 iMovie 帮助</p><p><code>Command-Shift-问号 (?)</code></p><p>打开“项目属性”窗口</p><p><code>Command-J</code></p><p>打开“项目主题”窗口</p><p><code>Command-Shift-S</code></p><h1 id="显示播放头信息"><a href="#显示播放头信息" class="headerlink" title="显示播放头信息"></a>显示播放头信息</h1><p>显示播放头上方的视频帧的日期、时间和关键词。</p><p><code>Command-Y</code></p><h1 id="导入和导出"><a href="#导入和导出" class="headerlink" title="导入和导出"></a>导入和导出</h1><p>从摄像机导入</p><p><code>Command-I</code></p><p>导出影片</p><p><code>Command-E</code></p><h1 id="播放视频"><a href="#播放视频" class="headerlink" title="播放视频"></a>播放视频</h1><p>从指针下方的帧开始播放视频</p><p><code>空格键</code></p><p>总共播放 1 秒钟的视频—指针前面的 0.5 秒钟至指针后面的 0.5 秒钟<br>如果指针停留在该选择框的范围内，则仅播放从所选部分开头起的 0.5 秒钟的视频或仅播放到所选部分结尾的 0.5 秒钟的视频。</p><p><code>左方括号 ([)</code></p><p>总共播放 3 秒钟的视频—指针前面的 1.5 秒钟至指针后面的 1.5 秒钟<br>如果指针停留在该选择框的范围内，则仅播放从所选部分开头起的 1.5 秒钟的视频或仅播放到所选部分结尾的 1.5 秒钟的视频。</p><p><code>右方括号 (])</code></p><p>播放所选部分</p><p><code>斜杠 (/)</code></p><p>从头开始播放所选事件或项目</p><p><code>反斜杠 ()</code></p><p>在事件浏览器中，您可以通过按下该按键一次或两次，相应地将回放从 1 倍速加快到 2 倍速或 4 倍速</p><p><code>→</code></p><p>在事件浏览器中，您可以通过按下该按键一次或两次，相应地将回放从 4 倍速减慢到 2 倍速或 1 倍速</p><p>此操作仅在您已经加快回放的速度时才能起作用。</p><p><code>←</code></p><p>正在播放事件视频时，向前跳过 3 秒钟（以 2 倍速或 4 倍速播放时则分别跳过 6 秒钟或 12 秒钟）</p><p><code>Shift+↓</code></p><p>正在播放事件视频时，向后跳过 3 秒钟（以 2 倍速或 4 倍速播放时则分别跳过 6 秒钟或 12 秒钟）</p><p><code>Shift+↑</code></p><p>正在播放事件视频时，向前跳到下一个剪辑</p><p><code>↓</code></p><p>正在播放事件视频时，跳到当前剪辑的开头；或者如果播放头接近当前剪辑的开头，则跳到上一个剪辑</p><p><code>↑</code></p><p>全屏播放所选事件或项目</p><p><code>Command-G</code></p><p>退出全屏幕模式</p><p><code>Escape 键 (Esc)</code></p><p>移动播放头一帧</p><p><code>←或→</code></p><p>冻结播放头</p><p><code>按住 Control 键</code></p><p>浏览时，保持光标在行的中间</p><p><code>Option-Shift</code></p><h1 id="管理项目和事件"><a href="#管理项目和事件" class="headerlink" title="管理项目和事件"></a>管理项目和事件</h1><p>创建新项目</p><p><code>Command-N</code></p><p>移到废纸篓<br>将所选项目（在项目资源库中）、事件（在事件资源库中）或事件剪辑（在事件浏览器中）移到废纸篓。如果只选择了事件剪辑的一部分，整个剪辑会移到废纸篓。</p><p><code>Command-Delete 键</code></p><p>打开 iMovie 偏好设置</p><p><code>Command-逗号 (,)</code></p><p>页面设置</p><p><code>Command-Shift-P</code></p><p>打印所选事件或项目的连续画面</p><p><code>Command-P</code></p><p>选择并编辑视频<br>当部分剪辑已选定时，选择整个项目或事件剪辑；或者当整个项目已选定时，选择所有项目或事件剪辑</p><p><code>Command-A</code></p><p>选择到播放头<br>将所选部分从最近的选择边框扩展或缩减至播放头。</p><p><code>Shift-A</code></p><p>取消选择全部剪辑</p><p><code>Command-Shift-A</code></p><p>在项目中添加所选帧</p><p><code>E</code></p><p>在所选内容（长于 5 帧）的两端分离剪辑，或者如果您未选择任何内容，则在播放头位置分离剪辑</p><p><code>Command-Shift-S</code></p><p>剪切选定帧</p><p><code>Command-X</code></p><p>拷贝选定帧</p><p><code>Command-C</code></p><p>粘贴选定帧</p><p><code>Command-V</code></p><p>粘贴所有调整</p><p><code>Command-Shift-V</code></p><p>粘贴视频调整</p><p><code>Command-Option-I</code></p><p>粘贴音频调整</p><p><code>Command-Option-A</code></p><p>粘贴裁剪调整</p><p><code>Command-Option-R</code></p><p>粘贴切换镜头、绿屏或画中画调整<br>粘贴调整，取决于所选视频的类型。</p><p><code>Command-Option-U</code></p><p>粘贴视频效果</p><p><code>Command-Option-L</code></p><p>粘贴音频效果</p><p><code>Command-Option-O</code><br>粘贴防抖动调整</p><p><code>Command-Option-Z</code><br>粘贴卷帘</p><p><code>Command-Option-T</code></p><p>粘贴速度调整</p><p><code>Command-Option-S</code></p><p>粘贴地图样式</p><p><code>Command-Option-M</code></p><p>开始或停止将所选视频标记为“喜爱的”</p><p><code>F</code></p><p>取消标记所选帧</p><p><code>U</code></p><p>拒绝选定帧（标记以供删除）</p><p><code>R</code></p><p>拒绝事件中选定的帧（标记为要删除的），或从项目删除选定的帧。</p><p><code>Delete</code></p><p>在事件浏览器中查看“喜爱的”和“未标记的”视频</p><p><code>Command-L</code></p><p>显示微调控制</p><p><code>Command-Option</code></p><p>将所选部分向左移动一帧</p><p><code>←</code></p><p>将所选部分向右移动一帧</p><p><code>→</code></p><p>将项目剪辑起始点或结束点向右微移一帧</p><p><code>按下 Option+→，并将指针放置在选择框内剪辑起始点或结束点的附近</code></p><p>将项目剪辑起始点或结束点向左微移一帧</p><p><code>按下 Option+←，并将指针放置在选择框内剪辑起始点或结束点的附近</code></p><p>在选定的项目剪辑中修剪到所选</p><p><code>Command-B</code></p><p>选定剪辑后打开剪辑修剪器</p><p><code>Command-R</code></p><p>打开精确度编辑器</p><p><code>Command-斜杠 (/)</code></p><p>打开“关键词”窗口</p><p><code>K</code></p><p>将所有关键词从所选部分中移除</p><p><code>0（零）</code></p><p>打开裁剪、旋转、Ken Burns 效果编辑器</p><p><code>C</code></p><p>打开检查器的“剪辑调整”面板</p><p><code>I</code></p><p>打开检查器的“视频调整”面板</p><p><code>V</code></p><h1 id="处理音频"><a href="#处理音频" class="headerlink" title="处理音频"></a>处理音频</h1><p>打开“音乐和声音效果”面板</p><p><code>Command-1</code></p><p>打开检查器的“音频调整”面板</p><p><code>A</code></p><p>打开“画外音”窗口</p><p><code>O</code></p><p>在浏览视频时打开音频或使其静音</p><p><code>Command-K</code></p><p>在剪辑修剪器中，在音频过程中设定节拍标记</p><p><code>M</code></p><p>打开或关闭“吸附到节拍”</p><p><code>Command-U</code></p><p>撤销上一步操作</p><p><code>Command-Z</code></p><p>重做上一步操作</p><p><code>Command-Shift-Z</code></p><h1 id="编辑文本"><a href="#编辑文本" class="headerlink" title="编辑文本"></a>编辑文本</h1><p>显示“字体”面板</p><p><code>Command-T</code></p><p>将所选文本变成粗体</p><p><code>Command-Shift-B</code></p><p>将所选文本变成斜体</p><p><code>Command-Shift-I</code></p><p>给选定文本加下划线</p><p><code>Command-Shift-U</code></p><p>给选定文本添加外框</p><p><code>Command-Shift-O</code></p><p>将所选文本变大</p><p><code>Command-Shift-加号 (+) 或 Command-等号 (=)</code></p><p>将所选文本变小</p><p><code>Command-减号 (-)</code></p><p>文本向左对齐</p><p><code>Command-Shift-左花括号 ({)</code></p><p>文本居中</p><p><code>Command-Shift-竖杠 (|)</code></p><p>文本向右对齐</p><p><code>Command-Shift-右花括号 (})</code><br>拷贝选定文本</p><p><code>Command-C</code></p><p>剪切所选文本</p><p><code>Command-X</code></p><p>粘贴已拷贝的文本</p><p><code>Command-V</code></p><p>拷贝文本样式</p><p><code>Command-Option-C</code></p><p>粘贴文本样式</p><p><code>Command-Option-V</code></p><p>紧缩字距微调</p><p><code>Command-Option-左箭头键</code></p><p>松排字距</p><p><code>Command-Option-右箭头键</code></p><h1 id="iMovie-窗口"><a href="#iMovie-窗口" class="headerlink" title="iMovie 窗口"></a>iMovie 窗口</h1><p>最小化窗口</p><p><code>Command-M</code></p><p>打开“音乐和声音效果”面板</p><p><code>Command-1</code></p><p>打开“照片”面板</p><p><code>Command-2</code></p><p>打开“字幕”面板</p><p><code>Command-3</code></p><p>打开“转场”面板</p><p><code>Command-4</code></p><p>打开“地图、背景和样片”浏览器</p><p><code>Command-5</code></p><p>以全屏幕模式显示项目</p><p><code>Command-6</code></p><p>以全屏幕模式显示事件</p><p><code>Command-7</code></p><p>使检视器窗口变小</p><p><code>Command-8</code></p><p>使检视器窗口大小适中</p><p><code>Command-9</code><br>使检视器窗口变大</p><p><code>Command-0</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;iMovie&quot;&gt;&lt;a href=&quot;#iMovie&quot; class=&quot;headerlink&quot; title=&quot;iMovie&quot;&gt;&lt;/a&gt;iMovie&lt;/h1&gt;&lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写
+      
+    
+    </summary>
+    
+    
+      <category term="macOS配置/软件操作指南" scheme="http://yoursite.com/categories/macOS%E9%85%8D%E7%BD%AE-%E8%BD%AF%E4%BB%B6%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/"/>
+    
+    
+      <category term="macos" scheme="http://yoursite.com/tags/macos/"/>
+    
+      <category term="iMovie" scheme="http://yoursite.com/tags/iMovie/"/>
+    
+      <category term="Pr" scheme="http://yoursite.com/tags/Pr/"/>
+    
+  </entry>
   
   <entry>
     <title>第五章 冶金熔渣</title>
